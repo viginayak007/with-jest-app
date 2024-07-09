@@ -1,7 +1,12 @@
+import Login from "./auth/login";
+
 export const metadata = {
   title: "App Router",
-};
+}; 
 
-export default function Page() {
-  return <h1>App Router</h1>;
+export default async function Page() {
+  return <div> 
+    <Login></Login>
+  </div>;
 }
+ 
